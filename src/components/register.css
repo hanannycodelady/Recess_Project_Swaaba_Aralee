@@ -1,0 +1,77 @@
+/* Register.css */
+
+.register {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.register h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.register form div {
+  margin-bottom: 15px;
+}
+
+.register label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+.register input[type="text"]:focus,
+.register input[type="email"]:focus,
+.register input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.register button.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register button.btn:hover {
+  background-color: #0056b3;
+}
+
+.register p {
+  text-align: center;
+  margin-top: 15px;
+  color: #777;
+}
+
+.register p.swaaba {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 20px;
+}
