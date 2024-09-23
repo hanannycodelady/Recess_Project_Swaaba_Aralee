@@ -91,7 +91,7 @@ const AboutUs = () => {
         </div>
         <div className="card">
           <h2>Our Story</h2>
-          <p>Founded in [2022], Swaab Aralee Cars began with a simple goal: to revolutionize the car buying process. Our founder, Swaab Aralee, saw a need for a dealership that focused not just on selling cars, but on building lasting relationships with customers. From our humble beginnings, we've grown into a trusted name in the industry, thanks to our dedication to quality and customer satisfaction.</p>
+          <p>Founded in [2022], Swaab Aralee Cars began with a simple goal: to revolutionize the car buying process. Our founder, Swaab Aralee, saw a need for a dealership that focused not just on selling cars, but on building lasting relationships with customers. From our humble beginnings, we've grown into a trusted name in the industry.</p>
         </div>
       </section>
 

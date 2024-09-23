@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import image1 from '../assets/slide.png';
-import image2 from '../assets/slide2.png';
-import image3 from '../assets/slide3.png';
-import image4 from '../assets/slide4.png';
-import image5 from '../assets/slide5.png';
+import image1 from '../assets/car7.png';
+import image2 from '../assets/car1.png';
+import image3 from '../assets/car3.png';
+import image4 from '../assets/car4.png';
+import image5 from '../assets/car8.png';
+import image6 from '../assets/2.png';
 
-const images = [image1, image2, image3, image4, image5];
+const images = [image1, image2, image3, image4, image5, image6];
 
 const BackgroundSlider = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

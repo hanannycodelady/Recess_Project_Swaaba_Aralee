@@ -3,14 +3,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding-top: 100px;
   box-sizing: border-box;
-  background-color: rgb(253, 122, 35);
-  /* background-image: url(./assets//background.png); */
+  background-color: rgb(131, 101, 81);
+
  
 }
-
-
 
 
 .container {
@@ -75,7 +73,7 @@ form button:hover {
   100% { opacity: 1; }
 }
 
-h2, p {
+h2 {
   text-align: center;
 }
 #text, h1{
@@ -97,6 +95,5 @@ ul li {
   border-radius: 4px;
 }
 
-/* ul li:nth-child(odd) {
-  /* background-color: #ececec; */
+
 

@@ -1,138 +1,136 @@
-
-.car-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
 .car-card {
   display: flex;
-  align-items: flex-start;
+  flex-direction: row; /* Change to row to align image and details side by side */
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 10px 0;
+  margin: 10px; /* Reduced margin */
   overflow: hidden;
   width: 90%;
-  max-width: 900px;
+  max-width: 1000px;
+  padding: 10px; /* Reduced padding */
 }
 
 .car-image {
-  width: 40%;
-  height: auto;
-  object-fit: cover;
+  width: 30%; /* Width can remain the same */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Cover will ensure the image fills the box without stretching */
+  border-radius: 8px;
+  margin-right: 10px; /* Reduced margin */
+}
+
+.car-details {
+  display: flex;
+  flex-direction: column; /* Keep details stacked vertically */
+  justify-content: space-between; /* Space details evenly */
+}
+
+.car-title {
+  text-align: left; /* Align text to the left */
+  font-weight: bold;
+  color: #070707;
+  margin: 5px 0; /* Reduced margin */
 }
 
 .car-price {
   font-size: 1.1em;
   font-weight: bold;
-  color: #27ae60;
-  margin: 10px 0;
+  color: #e00707;
+  text-align: left;
+  margin: 5px 0; /* Reduced margin */
 }
 
-.car-details h3 {
-  margin: 0 0 10px;
-  color:#085cf7;
-  font-weight:bolder;
-  background-color: aliceblue;
+/* Other existing styles remain the same */
+
+
+.see-more-btn {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
   text-align: center;
+  transition: background-color 0.3s;
 }
 
-.car-details p {
-  margin: 10px 0;
+.see-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.inquiry-btn {
+  background-color: #ec6409;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inquiry-btn:hover {
+  background-color: #c94b00;
+}
+
+.car-specs-table {
+  width: 100%;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+
+.car-specs-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
   color: #333;
   font-weight: bold;
 }
 
-.price-details {
-  display: flex;
-  justify-content: space-between;
-  align-items:center;
-  margin: 10px 0;
-}
 
-
-
-.car-actions {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.btn {
-  background-color: #f77b08;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 10px;
-  text-align: center;
-  transition: background-color 0.3s;
-  font-size: 0.9em;
-
-}
-
-.btn:hover {
-  background-color: #e66a00;
-}
-
-.inquiry-btn {
-  background-color: #ffa500;
-}
-
-.buy-now-btn {
-  background-color: #32cd32;
-}
-.response-message {
-  margin-top: 10px;
-  color: green;
-  font-weight: bold;
-}
-
-.response-message {
-  margin-top: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.response-message.success {
-  color: #155724;
-  background-color: #d4edda;
-  border: 1px solid #c3e6cb;
-}
-
-.response-message.error {
-  color: #721c24;
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
-}
-
-button[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
+.next-btn {
   background-color: #007bff;
-  color: white;
-  font-size: 16px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 20px auto; /* Center the button */
   cursor: pointer;
+  display: block; /* Make it a block element to center */
   transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover {
+.next-btn:hover {
   background-color: #0056b3;
 }
-.success-message {
-  color: green;
-  font-weight: bold;
+
+.back-btn {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 20px 10px; /* Space between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.error-message {
-  color: red;
-  font-weight: bold;
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.next-btn {
+  background-color: #080808;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 20px 10px; /* Space between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
 }

@@ -16,7 +16,8 @@ body {
   max-width: 400px;
   margin: auto;
   background-color: whitesmoke;
-  padding: 20px; /* Optional: add some padding for aesthetics */
+  padding: 60px; /* Optional: add some padding for aesthetics */
+  padding-top: 12%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 

@@ -43,16 +43,16 @@ const Navbar = () => {
     };
 
     checkAdmin();
-  }, []); // Empty dependency array to run only on component mount
+  }, []);
 
   return (
     <nav className="navbar">
       <div className="navbar-left">
         <img src={logo} alt="Logo" className="navbar-logo" />
-        <h1 className="navbar-title">SWAABA ARALEE</h1>
-        <br></br>
-        <br></br>
-        <p>The Best Automotive</p>
+        <div className="title-container">
+          <h1 className="navbar-title">SWAABA ARAALEE</h1>
+          <p className="navbar-slogan">The Best Automotive Source</p>
+        </div>
       </div>
       <ul className="navbar-menu">
         <li>
@@ -71,6 +71,12 @@ const Navbar = () => {
           <Link to="/aboutus" className="navbar-link">
             <FaInfoCircle />
             <span>About Us</span>
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" className="navbar-link">
+            <FaInfoCircle />
+            <span>Contact us</span>
           </Link>
         </li>
         {userName ? (
@@ -107,18 +113,13 @@ const Navbar = () => {
             <span>Register</span>
           </Link>
         </li>
-        <li>
-          <Link to="/categories" className="navbar-link">
-            <FaCar />
-            <span>Categories</span>
-          </Link>
-        </li>
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
+
 
 
 

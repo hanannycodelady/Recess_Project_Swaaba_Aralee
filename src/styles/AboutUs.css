@@ -103,6 +103,12 @@ blockquote {
 .about-us-container h2,
 .about-us-container p {
   color: #333; /* Adjust text color to ensure readability */
+  text-align: center;
+}
+
+.about-us-container p {
+  color: whitesmoke; /* Adjust text color to ensure readability */
+  text-align: center;
 }
 
 .testimonials {
